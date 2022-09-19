@@ -1,3 +1,8 @@
+# RDBMS (Relation Database Management System)
+
+## Quản lý bán giày
+
+```SQL
 CREATE TABLE ADMINS
 (
     ADMIN_ID INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
@@ -238,3 +243,4 @@ CREATE TABLE MAIL_OUT_QUEUE
     subject text not null,
     content text not null
 );
+```
